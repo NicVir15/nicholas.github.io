@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Print Aja</title>
+    <link href="style.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <img id="Printing" src="Printing.jpg" alt="printingmain" />
+
+    <img src="gambarPrintAja.png" id="logoprintaja" alt="PrintAjalogo">
+    <form id="SignIn">
+        <table border="0" cellspacing="0" cellpadding="5">
+
+            <tr>
+                <th colspan="5">  <h2 id="Sign In">SIGN IN</h2> </th>
+
+                <td><label for="Email">Email:</label> </td>
+                <td><input type="Email" name="Email" id="Email"></td>
+                <td><label for="Password">Password:</label> </td>
+                <td> <input type="Password" name="Password" id="Password"></td>
+                <td> <button type="submit">SIGN IN</button></td>
+            </tr>
+        </table>
+    </form>
+    <br />
+    <form class="SignUp" onsubmit="return verifyPassword()">
+        <center>
+            <table border="0" cellspacing="0" cellpadding="5">
+
+                <tr>
+                    <th colspan="2">  <h2 id="Sign Up">Sign Up</h2> </th>
+                </tr>
+
+                <tr>
+                    <td> <label for="FName">First Name:</label></td>
+                    <td><input type="text" id="FName"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="LName">Last Name:</label>
+                    </td>
+                    <td>  <input type="text" id="LName"></td>
+                </tr>
+                <tr>
+                    <td> <label for="Email">Email:</label> </td>
+                    <td>  <input type="Email" id="Email"></td>
+                </tr>
+                <tr>
+                    <td> <label for="Password">Password:</label></td>
+                    <td> <input type="Password" id="Password"></td>
+                </tr>
+                <tr>
+                    <td> <label for="Confirm Password">Confirm Password:</label></td>
+                    <td> <input type="Password" id="Confirm Password"></td>
+                </tr>
+                <tr>
+                    <td> <label for="Number">Number Phone:</label></td>
+                    <td><input type="Number" id="Number"></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender:</label></td>
+                    <td>
+                        <input type="radio" id="Male" Name="Gender"><label for="Male">Male</label>
+                        <input type="radio" id="Female" name="Gender"><label for="Female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="Date">Date OF Birth:</label></td>
+                    <td><input type="Date" name="Date" value="Date" /></td>
+                </tr>
+                <tr>
+                    <td> <label for="Address">Address:</label></td>
+                    <td><textarea id="Address"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <center><button type="button" onclick="myFunction(ValidityState)">SIGN UP</button> </center></td>
+                </tr>
+
+
+            </table>
+        </center>
+    </form>
+</body>
+</html>
